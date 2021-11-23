@@ -1,0 +1,155 @@
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+
+h1,h2,h3,h4,h5{
+    font-family: "Josefin Sans",sans-serif;
+}
+
+
+.slider-area {
+    background-image: url(img.jpeg);
+    height: 100vh;
+    width: 100%;
+}
+#card{
+    width: 100%;
+    height: 700px;
+padding: 200px;
+}
+#cards .h3-and-p{
+    padding: 15px;
+}
+.card-text-one{
+    font-size: 50px;
+    font-weight: 600;
+    line-height: 1.7;
+    width: 350px;
+    color: white;
+}
+.card-text-two{
+    width: 500px;
+    color: white;
+}
+.card-button{
+    width: 150px;
+    height: 50px;
+    background-color: rgb(219, 108, 89);
+    margin-top: 30px;
+}
+.threecard{
+
+    width: 87%;
+    height: 150px;
+    display: flex;
+    text-align: center;
+    margin-left: 175px;
+    
+}
+.threecard #cards{
+    height: 150px;
+    background-color:white;
+    border-radius: 10px;
+    margin: -100px 41px 1px 1px;
+}
+#card-h2{
+    text-align: center;
+    color:#4272d7;
+    margin-bottom: 50px;
+}
+
+.big-cards{
+
+margin-left: 170px;
+margin-right: 170px;
+height: 650px;
+border-radius: 10px 10px 1px 1px;
+}
+.big-cardss{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px 10px 1px 1px;
+}
+.big-card{
+  
+ width: 32%;
+ height: 200px;
+border-radius: 10px 10px 1px 1px;
+}
+.middle-cardss{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1px 1px 10px 10px;
+    
+}
+.middle-card{
+    background-color: rgb(229, 232, 243);
+ width: 32%;
+ height: 410px;
+border-radius: 1px 1px 10px 10px;
+border: 1px solid rgb(187, 198, 246);
+border-top: none;
+padding: 15px;
+}
+.imageone,.imagetwo,.imagethree{  
+      width: 100%;
+    height: 200px;
+border-radius: 10px 10px 1px 1px;
+}
+.imageone{
+    background-image: url(../yitekchi/assist/images/科技3.jpg);
+}
+.imagetwo{
+    background-image: url(../yitekchi/assist/images/科技3.jpg);
+  }
+.imagethree{
+    background-image: url(../yitekchi/assist/images/科技3.jpg);
+  }
+  .middle-card p{
+padding-bottom: 15px;
+  }
+  .middle-card h3 a{
+font-size: 25px;
+  }
+  .middle-card .card-p{
+    padding-top: 15px;
+    padding-bottom: 15px;   
+  }
+.rating i{
+    color:#FF7B2E;
+}
+.rating p span{
+    color:#FF7B2E ;
+    font-size: 12px;
+}
+.price span{
+    cursor: pointer;
+    font-weight: 700;
+    color: #4255a4;
+    font-size: 23px;
+
+}
+.rating-price{
+    display: flex;
+justify-content: space-between
+}
+.card-border-btn{
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    border: 1px solid #898cb1;
+    color: #4255a4;
+    padding-top: 10px;
+}
